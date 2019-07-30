@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.1)
+
+# Name of project
+# CHANGE THIS NAME IN YOUR PROJECT
+set(PROJECT_NAME "ExampleProject")
+
+# create project
+project(${PROJECT_NAME})
+
+
+set(SOURCE_FILES
+		main.cpp
+		queue.cpp
+		queue.h
+)
+
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
