@@ -1,11 +1,11 @@
 #include <iostream>
-#include "queue.h"
+#include "dequeue.h"
 using namespace std;
 
 int main()
 {
-	create_queue();
-	delete_queue();
+	create_dequeue();
+	delete_dequeue();
 	system("pause");
 	return 0;
 }

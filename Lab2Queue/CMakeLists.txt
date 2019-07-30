@@ -10,8 +10,8 @@ project(${PROJECT_NAME})
 
 set(SOURCE_FILES
 		main.cpp
-		queue.cpp
-		queue.h
+		dequeue.cpp
+		dequeue.h
 )
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
